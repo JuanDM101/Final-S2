@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50733
+52511
 Successfully changed project path to: /Users/juanmaravilla735/Documents/GitHub/Final-P4/Final
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/juanmaravilla735/Documents/GitHub/Final-P4/Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Could not lock editor preferences. Preferences updates for this instance of Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8235596480] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 281481149 [EditorId] 281481149 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8488811200] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 2787837030 [EditorId] 2787837030 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8235596480] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 281481149 [EditorId] 281481149 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8488811200] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 2787837030 [EditorId] 2787837030 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 2.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,19 +76,19 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56894
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56770
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000905 seconds.
-- Loaded All Assemblies, in  0.170 seconds
+Registered in 0.000919 seconds.
+- Loaded All Assemblies, in  0.181 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.120 seconds
-Domain Reload Profiling: 290ms
-	BeginReloadAssembly (41ms)
+- Finished resetting the current domain, in  0.132 seconds
+Domain Reload Profiling: 313ms
+	BeginReloadAssembly (42ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -96,26 +96,26 @@ Domain Reload Profiling: 290ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (76ms)
-		LoadAssemblies (41ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (42ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (75ms)
-			TypeCache.Refresh (74ms)
-				TypeCache.ScanAssembly (67ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (74ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (120ms)
+	FinalizeReload (132ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (89ms)
+		SetupLoadedEditorAssemblies (98ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (60ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 290ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.295 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.292 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,9 +132,9 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.289 seconds
-Domain Reload Profiling: 584ms
-	BeginReloadAssembly (63ms)
+- Finished resetting the current domain, in  0.274 seconds
+Domain Reload Profiling: 566ms
+	BeginReloadAssembly (64ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
@@ -143,37 +143,37 @@ Domain Reload Profiling: 584ms
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (119ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (117ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (88ms)
-				TypeCache.ScanAssembly (79ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (76ms)
 			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (289ms)
+	FinalizeReload (274ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (207ms)
+		SetupLoadedEditorAssemblies (197ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (164ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3552.
-Memory consumption went from 125.9 MB to 125.8 MB.
-Total: 2.135583 ms (FindLiveObjects: 0.107834 ms CreateObjectMapping: 0.049625 ms MarkObjects: 1.901583 ms  DeleteObjects: 0.075834 ms)
+Memory consumption went from 128.2 MB to 128.1 MB.
+Total: 1.939125 ms (FindLiveObjects: 0.073291 ms CreateObjectMapping: 0.044667 ms MarkObjects: 1.764708 ms  DeleteObjects: 0.055959 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,105 +190,953 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15516.197805 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0.zip
-  artifactKey: Guid(e9f9b1c3e5a0643d9a3e7bdfd2c3906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0.zip using Guid(e9f9b1c3e5a0643d9a3e7bdfd2c3906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d6430eac019b23cd066fb3faf66c19') in 0.006133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 33.985950 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Overview.png
-  artifactKey: Guid(6f0d1c5bf25be446e942c786512b29a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Overview.png using Guid(6f0d1c5bf25be446e942c786512b29a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7898afcf1084af9e957446a98f993b1') in 0.029386 seconds
+  Time since last request: 271263.012204 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/sample.png
+  artifactKey: Guid(9cc0c76675e244ef4a5fbdda614a6779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/sample.png using Guid(9cc0c76675e244ef4a5fbdda614a6779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cac67627294d98e69bcfe90aeae2ac4') in 0.027043 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.341030 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/artifact.obj
-  artifactKey: Guid(c0c9c4ddb227343b588a9323a9392139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/artifact.obj using Guid(c0c9c4ddb227343b588a9323a9392139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a143179cbc26d24b08cdc07e0f7e624') in 0.213472 seconds
+  Time since last request: 42.611026 seconds.
+  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/sample.png
+  artifactKey: Guid(1300369de5c99410eb37b29051d04168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/sample.png using Guid(1300369de5c99410eb37b29051d04168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c78e2edb749f0c763fb11d5cab1c1a') in 0.008581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.903009 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Arrow_Broken.obj
+  artifactKey: Guid(632cd94344f30407d8c13d4f8458b0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Arrow_Broken.obj using Guid(632cd94344f30407d8c13d4f8458b0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c55ac350b9a51651b03273965df3427') in 0.065862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Blade.obj
+  artifactKey: Guid(f1b778cefdf8e4c77b2515bf6e1aea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Blade.obj using Guid(f1b778cefdf8e4c77b2515bf6e1aea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b491d9ca7f56ff3d26dd76e0d9dd9e1f') in 0.008936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Shield_Small_B.obj
+  artifactKey: Guid(be229153c66234ad8a5ab4ea0d1422b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Shield_Small_B.obj using Guid(be229153c66234ad8a5ab4ea0d1422b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c2cfd64b5b4fedf26307e7b347d279') in 0.008739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Quiver.obj
+  artifactKey: Guid(0faf84a587f9547ac8b283da19509d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Quiver.obj using Guid(0faf84a587f9547ac8b283da19509d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97a865a25ef75c417f3dc69117559b0') in 0.008499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Shield_Small_A.obj
+  artifactKey: Guid(4052c3db116a34d9d87a983c62454fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Shield_Small_A.obj using Guid(4052c3db116a34d9d87a983c62454fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f158d375e480353db752f8ffdcb9c7f') in 0.009543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Shield_Large_B.obj
+  artifactKey: Guid(4df3a64b2da03443894c1e90eee1c5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Shield_Large_B.obj using Guid(4df3a64b2da03443894c1e90eee1c5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28c42c37c642961a94c7c38b4ab378f') in 0.009030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Staff.obj
+  artifactKey: Guid(2ceac2808133c4eb7beb3549975cc005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/assets/obj/Skeleton_Staff.obj using Guid(2ceac2808133c4eb7beb3549975cc005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb57197916b77e360c3f139607cb4e8') in 0.008571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 9.279163 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/arch_gate_left.obj
+  artifactKey: Guid(d88dcaca24a2348afaf5992faee021e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/arch_gate_left.obj using Guid(d88dcaca24a2348afaf5992faee021e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896140ee9de6f1a59840bd05bbbbbad5') in 0.012731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/path_A.obj
+  artifactKey: Guid(244548e41e6d94cdfa0c7257fa92c307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/path_A.obj using Guid(244548e41e6d94cdfa0c7257fa92c307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19150a93d9d6edf996e926e68f2a5bdd') in 0.009009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/grave_A_destroyed.obj
+  artifactKey: Guid(840c14227b63a4d57bd6206338336e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/grave_A_destroyed.obj using Guid(840c14227b63a4d57bd6206338336e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831b47676fe1051c72e4dc42cc04581b') in 0.008595 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/barrelDark.obj
-  artifactKey: Guid(8a945d3a677564e0991047a51302efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/barrelDark.obj using Guid(8a945d3a677564e0991047a51302efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae9b7cd078efca714e6f5e8709ac078') in 0.012038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/axeDouble_common.obj
-  artifactKey: Guid(aab3717fed69340c7be97a50c3dba50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/axeDouble_common.obj using Guid(aab3717fed69340c7be97a50c3dba50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6265ac5acd084f1ae45c9c705995ddf') in 0.009701 seconds
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/lantern_standing.obj
+  artifactKey: Guid(4d64f045191c04f64a7b7b2a2f786fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/lantern_standing.obj using Guid(4d64f045191c04f64a7b7b2a2f786fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b21e89245a413b009c9e43c2ba99d') in 0.009387 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/banner.obj
-  artifactKey: Guid(5130e338c807d4351956361cb7c2fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/banner.obj using Guid(5130e338c807d4351956361cb7c2fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd440b3f2d3161754581f2e1748f1e7fd') in 0.010954 seconds
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/path_C.obj
+  artifactKey: Guid(b7e3f35d9cba54c48a5d2860309adcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/path_C.obj using Guid(b7e3f35d9cba54c48a5d2860309adcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9a1c7729fcbcaa15e9c3aeb09e8c6c') in 0.007649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/floor_dirt_small.obj
+  artifactKey: Guid(42ea60381db5145b585fb39e084fd681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/floor_dirt_small.obj using Guid(42ea60381db5145b585fb39e084fd681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5202504c29c54b8daa1d9811f8e5371f') in 0.007328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/arch_gate_right.obj
+  artifactKey: Guid(9e9667b04b8344a13afe7a6fe5e7625b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/arch_gate_right.obj using Guid(9e9667b04b8344a13afe7a6fe5e7625b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc44d7f22cf49cdcb4253f3ef45e6333') in 0.007780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_pillar_broken.obj
+  artifactKey: Guid(808ad129b71a541008bb13baf36fb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_pillar_broken.obj using Guid(808ad129b71a541008bb13baf36fb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903a98a490be2b8642c0da3fa4dde333') in 0.008794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/gravemarker_B.obj
+  artifactKey: Guid(f601d20fb727544a79b61faf549bbe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/gravemarker_B.obj using Guid(f601d20fb727544a79b61faf549bbe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fb449fd780f653b86e51df1036a0bc') in 0.008091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/candle.obj
+  artifactKey: Guid(13d3b997e94be4de5b700d740e3a9100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/candle.obj using Guid(13d3b997e94be4de5b700d740e3a9100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f005b885f80df1114ce62c02979ee1de') in 0.008984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/candle_melted.obj
+  artifactKey: Guid(97131c345b0f649f4bc2ee39341a1315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/candle_melted.obj using Guid(97131c345b0f649f4bc2ee39341a1315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7321b1d4f303e8f27137d2a78f88c7f') in 0.008373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/coffin.obj
+  artifactKey: Guid(a606cdb4a161f4923a8d90352b4b28e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/coffin.obj using Guid(a606cdb4a161f4923a8d90352b4b28e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308a94a1ef462d113e2c7699ded3859c') in 0.007567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/plaque_candles.obj
+  artifactKey: Guid(3bf0e70b9ac4946f8b3176332cfda4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/plaque_candles.obj using Guid(3bf0e70b9ac4946f8b3176332cfda4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0eeae6ab034612292c6eb6ba4acbfc5') in 0.008641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/halloweenbits_texture.png
+  artifactKey: Guid(69dd8f2d74e504497ad416d03c974575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/halloweenbits_texture.png using Guid(69dd8f2d74e504497ad416d03c974575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee22b9c44f46521a1c2f648be440f8d7') in 0.002408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/path_D.obj
+  artifactKey: Guid(34533ba606726463eb96dfaa0b22f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/path_D.obj using Guid(34533ba606726463eb96dfaa0b22f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39cfdfaba0735449fb0896e5f45b1c3') in 0.008801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_seperate.obj
+  artifactKey: Guid(d5c82410eb69c4776ac5f1fe84550c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_seperate.obj using Guid(d5c82410eb69c4776ac5f1fe84550c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7687db8e8813abd987d69e20bbb034') in 0.007453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/post_skull.obj
+  artifactKey: Guid(b0127192b714a46a4875a29b9741e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/post_skull.obj using Guid(b0127192b714a46a4875a29b9741e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0abd7518ed3f9e35737236fe64546d') in 0.007929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/floor_dirt.obj
+  artifactKey: Guid(b12a72e9ba5484a2fabcf9904a46948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/floor_dirt.obj using Guid(b12a72e9ba5484a2fabcf9904a46948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accc30276d2ca10c14e03360a009df03') in 0.008653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/post.obj
+  artifactKey: Guid(d8f9e0af5d49348ed8a2c93cea69de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/post.obj using Guid(d8f9e0af5d49348ed8a2c93cea69de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157aa019c57ca6c077e1d4b8ac4e2238') in 0.007915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/bone_A.obj
+  artifactKey: Guid(58b21798ba7e042ea8ecee618887aa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/bone_A.obj using Guid(58b21798ba7e042ea8ecee618887aa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78962cbf0a9222f027ae21aef73cf5ff') in 0.007716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.708151 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/pumpkin_orange_jackolantern.obj
+  artifactKey: Guid(9d21cf1b41cc845d3b1e0a0d034f5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/pumpkin_orange_jackolantern.obj using Guid(9d21cf1b41cc845d3b1e0a0d034f5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214887f85ea5001cb858724fe5d3b8f1') in 0.015737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/pumpkin_yellow_jackolantern.obj
+  artifactKey: Guid(9ca79d04b0a4843b78a1c18894297572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/pumpkin_yellow_jackolantern.obj using Guid(9ca79d04b0a4843b78a1c18894297572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bceff2c7e3c0d0131249efbd0066f0') in 0.011050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/pumpkin_orange_small.obj
+  artifactKey: Guid(63f1f924ca8ce4908bf4625d0d2682b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/pumpkin_orange_small.obj using Guid(63f1f924ca8ce4908bf4625d0d2682b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0c2c4f54fdca8ec0ccc9e051e2c923') in 0.009619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/shrine_candles.obj
+  artifactKey: Guid(a7dda2185d6974dae829741cabbec9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/shrine_candles.obj using Guid(a7dda2185d6974dae829741cabbec9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24594e74cd13e85ea1e964a4c8f5971a') in 0.008588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_dead_large.obj
+  artifactKey: Guid(5d3fdcb91b58944e88d1a34c4c38fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_dead_large.obj using Guid(5d3fdcb91b58944e88d1a34c4c38fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9140a1ab1fc9b9e65d359b85e50d44') in 0.007469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_dead_medium.obj
+  artifactKey: Guid(9e45af654964c4700a3bc0e6c84acb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_dead_medium.obj using Guid(9e45af654964c4700a3bc0e6c84acb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e07225037547cf3e627de66796e11e') in 0.007575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001457 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_pine_orange_small.obj
+  artifactKey: Guid(4887a3c5c4e1f4ab69f721299975d60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_pine_orange_small.obj using Guid(4887a3c5c4e1f4ab69f721299975d60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6304c350367c2ffd38846a68c996e85d') in 0.008488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_pine_yellow_large.obj
+  artifactKey: Guid(baee7a52763d3444398c14d4f641adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_pine_yellow_large.obj using Guid(baee7a52763d3444398c14d4f641adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16eae93abb99b3b724d79f4cbdbe319') in 0.009420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 119.123296 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Overview.png
+  artifactKey: Guid(4fea03634f417426d93736e7d255993a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Overview.png using Guid(4fea03634f417426d93736e7d255993a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7f0be5103ea779fc94279e363b11f0') in 0.009702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.164742 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/artifact.obj
+  artifactKey: Guid(55de4773657ba46efb21b4c26f7e1824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/artifact.obj using Guid(55de4773657ba46efb21b4c26f7e1824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2acd7fead6e3102a6455de55029868') in 0.013343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookE.obj
+  artifactKey: Guid(648f2008bb50b456ab15947b6b104c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookE.obj using Guid(648f2008bb50b456ab15947b6b104c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4c3b5c4d0107f44469971a3b89b4fd') in 0.010236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookOpenA.obj
+  artifactKey: Guid(6582322040285424e97dce6a6e6542b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookOpenA.obj using Guid(6582322040285424e97dce6a6e6542b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9e29657389c59c4185d275d0d7296a') in 0.012868 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/axeDouble_rare.obj
-  artifactKey: Guid(cc529df92d9224a53ae9c7fc72b84801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/axeDouble_rare.obj using Guid(cc529df92d9224a53ae9c7fc72b84801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6c8df9aa0d9e44bf1d74bc2db91ffe') in 0.014771 seconds
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chestTop_uncommon_mimic.obj
+  artifactKey: Guid(d4f290878bca5425095bd0a2e40758d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chestTop_uncommon_mimic.obj using Guid(d4f290878bca5425095bd0a2e40758d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dc9ee32856f7d85da977ac501090dc') in 0.013441 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/bookC.obj
-  artifactKey: Guid(854592c1c614f4620b819db2883d09d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/bookC.obj using Guid(854592c1c614f4620b819db2883d09d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c166e679ecf964619853c26690c90fe5') in 0.010631 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chest_uncommon_mimic.obj
+  artifactKey: Guid(6d09f87cf977947bc881a0a8355d0698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chest_uncommon_mimic.obj using Guid(6d09f87cf977947bc881a0a8355d0698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76dfc6474081a95689352e8150fd6ff') in 0.012978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chestTop_uncommon.obj
+  artifactKey: Guid(ead17ba210879498c815fb48160ed3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chestTop_uncommon.obj using Guid(ead17ba210879498c815fb48160ed3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e0fbb94817094b5ecd1568ab1a7fbb') in 0.010114 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/axe_uncommon.obj
-  artifactKey: Guid(f2f1494228a4e469c9b6c0be770885ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Models/obj/axe_uncommon.obj using Guid(f2f1494228a4e469c9b6c0be770885ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fa460931769cec101059cc6504b65b') in 0.012609 seconds
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/coinsMedium.obj
+  artifactKey: Guid(756d938df0fcb4e189c06816089abe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/coinsMedium.obj using Guid(756d938df0fcb4e189c06816089abe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca0179809606c696b452c5c514eb78a') in 0.007888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chest_common.obj
+  artifactKey: Guid(c4ef852271fe243fa91eea46f0f42f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chest_common.obj using Guid(c4ef852271fe243fa91eea46f0f42f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a850a24c360ca50be55e047426b006') in 0.013975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chestTop_common_empty.obj
+  artifactKey: Guid(d8c574fb8070142b8881e0fd7fa222ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chestTop_common_empty.obj using Guid(d8c574fb8070142b8881e0fd7fa222ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65164930e765eb8dfc269255f475f23') in 0.010791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookA.obj
+  artifactKey: Guid(fb58306fae6284c019df990d7e4f7bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookA.obj using Guid(fb58306fae6284c019df990d7e4f7bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6fdeaf830387a954d4645575bac1c5') in 0.012569 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 36.569511 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/KayKit Brand Resouces/KayKit_logo_red.png
-  artifactKey: Guid(c2929dff925ed450bb0f77f3df315d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/KayKit Brand Resouces/KayKit_logo_red.png using Guid(c2929dff925ed450bb0f77f3df315d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b91381198e309a181b84953dfb181b') in 0.008386 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/barrelDark.obj
+  artifactKey: Guid(a11f7952df4784be4b8c5cd363d9596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/barrelDark.obj using Guid(a11f7952df4784be4b8c5cd363d9596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fae6be279e0e1a2b08e4ff804738cc') in 0.011281 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/KayKit Brand Resouces/KayKit_logo_white.png
-  artifactKey: Guid(0f50208b1b8df41438c2d70be62e31bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/KayKit Brand Resouces/KayKit_logo_white.png using Guid(0f50208b1b8df41438c2d70be62e31bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873dee0989febba698127dfd2d13562a') in 0.004170 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookC.obj
+  artifactKey: Guid(eb879283c47224f12ba8fa7cf134a964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookC.obj using Guid(eb879283c47224f12ba8fa7cf134a964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957ab5c539bad2eda6bb911e22948f79') in 0.010404 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/KayKit Brand Resouces/KayKit_logoVariation_black.png
-  artifactKey: Guid(3cae300d9e4b747bf856f6d4573366e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/KayKit Brand Resouces/KayKit_logoVariation_black.png using Guid(3cae300d9e4b747bf856f6d4573366e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e474cf8e59e1ef3ecff970780fd9a2') in 0.003379 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookcaseWide.obj
+  artifactKey: Guid(5950315a72ee84897b2af1fdab07126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookcaseWide.obj using Guid(5950315a72ee84897b2af1fdab07126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9dec646510c9b1bb24f4f7a161e144') in 0.009202 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 13.071764 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Samples/Sample3.png
-  artifactKey: Guid(42ad037a0ad344db78a75b9c9b2e938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Samples/Sample3.png using Guid(42ad037a0ad344db78a75b9c9b2e938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6480e47b098d39ee8d9f097cb6bfc666') in 0.008316 seconds
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/axe_rare.obj
+  artifactKey: Guid(cc860a43da7a54016b0f2bb98a2451ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/axe_rare.obj using Guid(cc860a43da7a54016b0f2bb98a2451ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f524dce099f9e7f9051a670dddd187dd') in 0.013229 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bench.obj
+  artifactKey: Guid(3288105d711504ea59ecd78490162469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bench.obj using Guid(3288105d711504ea59ecd78490162469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833d8195da35bec592151675f426571d') in 0.007449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookcaseFilled_broken.obj
+  artifactKey: Guid(0a2870eb00c9d422fb747027bcd692ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookcaseFilled_broken.obj using Guid(0a2870eb00c9d422fb747027bcd692ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a4f740f954628c577aae523715450a') in 0.019026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/axeDouble_common.obj
+  artifactKey: Guid(2413808ef38524eaf8cef207bb874e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/axeDouble_common.obj using Guid(2413808ef38524eaf8cef207bb874e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9bd85e95fb799c60a29113a930a938') in 0.008907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chest_common_empty.obj
+  artifactKey: Guid(33ef34bf661dd4f76b64cb334ea25ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chest_common_empty.obj using Guid(33ef34bf661dd4f76b64cb334ea25ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5ab80a615f14cb44bb35a32303bfbb') in 0.013455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookB.obj
+  artifactKey: Guid(a452e21ded0224adb99a8a1df062761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/bookB.obj using Guid(a452e21ded0224adb99a8a1df062761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d4a2fd5555fe6255b2fb7a320a1ef0') in 0.010966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/crate.obj
+  artifactKey: Guid(8fbc92bbdf5974758b3f683fae7eda72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/crate.obj using Guid(8fbc92bbdf5974758b3f683fae7eda72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70048172fa37bba7424b77e368f39906') in 0.009923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chestTop_common.obj
+  artifactKey: Guid(928dbdc69dab640a6bba1a9b39599100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chestTop_common.obj using Guid(928dbdc69dab640a6bba1a9b39599100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f75e43a84997ec6120e851634a3111') in 0.010246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/axeDouble_uncommon.obj
+  artifactKey: Guid(20ddb6167d6c64f1ba6388e992822160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/axeDouble_uncommon.obj using Guid(20ddb6167d6c64f1ba6388e992822160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7332ea7cb85583604e6bb30749a2748') in 0.011388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/axeDouble_rare.obj
+  artifactKey: Guid(b2f42993383024ff0ae038d4de5d8555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/axeDouble_rare.obj using Guid(b2f42993383024ff0ae038d4de5d8555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689d901770859304f2c42d6d15c62fca') in 0.013390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chest_rare.obj
+  artifactKey: Guid(61c720b397f864949bbcfdfe1b0c98c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/chest_rare.obj using Guid(61c720b397f864949bbcfdfe1b0c98c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3885d47a3e94420e61c27ed2aafc984b') in 0.009700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.581370 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/cratePlatform_large.obj
+  artifactKey: Guid(7de7a9608c9c642148542a59453012f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/cratePlatform_large.obj using Guid(7de7a9608c9c642148542a59453012f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a49c921dc679de5a309cbf1abc4be8') in 0.012952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/crossbow_uncommon.obj
+  artifactKey: Guid(bf53975e1595c4b4b9e0e64184b048aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/crossbow_uncommon.obj using Guid(bf53975e1595c4b4b9e0e64184b048aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45333ed4ee813de03ca7039652ad306f') in 0.010885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/dagger_rare.obj
+  artifactKey: Guid(f75d5b7bf025a480088572e5d9b9b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/dagger_rare.obj using Guid(f75d5b7bf025a480088572e5d9b9b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3666c59abc12495500f22226faff5c') in 0.012903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/dagger_uncommon.obj
+  artifactKey: Guid(bba0b8e279b494dcd82fe27c6dd83be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/dagger_uncommon.obj using Guid(bba0b8e279b494dcd82fe27c6dd83be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc67436a1f9ea83d8608e81f79bc7e5e') in 0.011843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/hammer_rare.obj
+  artifactKey: Guid(38412813180b2447f87fdf6757f627dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/hammer_rare.obj using Guid(38412813180b2447f87fdf6757f627dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb41e710fb758a68cfbfa8f004757c7') in 0.012716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/lootSackA.obj
+  artifactKey: Guid(458045bc4a5684971ad47024152ec41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/lootSackA.obj using Guid(458045bc4a5684971ad47024152ec41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a0418aa1c80ad73b2484617d6042fb') in 0.009861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/hammer_common.obj
+  artifactKey: Guid(825913261c07543e79472a7742426741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/hammer_common.obj using Guid(825913261c07543e79472a7742426741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574fb688c99f139c6b1f923707e297f0') in 0.009967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potB.obj
+  artifactKey: Guid(78bd1c0e78bad4b079234c65719a7ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potB.obj using Guid(78bd1c0e78bad4b079234c65719a7ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3154015afe2f3f466a828e956be96e78') in 0.007683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionLarge_red.obj
+  artifactKey: Guid(73d369e6d040b426abd702688257066c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionLarge_red.obj using Guid(73d369e6d040b426abd702688257066c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0610b63e50f8b793f43f2309ba71d8') in 0.174456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionMedium_green.obj
+  artifactKey: Guid(9a2eccfa547164e828d2b26526389189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionMedium_green.obj using Guid(9a2eccfa547164e828d2b26526389189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64f526764641d9884d412b04d51cdac') in 0.011561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/plateFull.obj
+  artifactKey: Guid(e4be6fa7c92b24d61a17da68eca00815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/plateFull.obj using Guid(e4be6fa7c92b24d61a17da68eca00815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7218932531477fa07200e26988ed6c1b') in 0.009867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/mug.obj
+  artifactKey: Guid(d5e5fbbe7c1bb40e5ab25caeee9b3f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/mug.obj using Guid(d5e5fbbe7c1bb40e5ab25caeee9b3f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5f83cca6997a1a8d3f1800bbb290a2') in 0.009603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potC.obj
+  artifactKey: Guid(006c88acffe384e2ab876fc4e42b1da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potC.obj using Guid(006c88acffe384e2ab876fc4e42b1da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce601b83071409c2e902f183c23244f3') in 0.007454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/dagger_common.obj
+  artifactKey: Guid(e8562c223e3d14ea298b19c507448e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/dagger_common.obj using Guid(e8562c223e3d14ea298b19c507448e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683587f24a4bd324b060a8c53629183e') in 0.012124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionMedium_blue.obj
+  artifactKey: Guid(db2c1b568220941d0aa2352b7e171b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionMedium_blue.obj using Guid(db2c1b568220941d0aa2352b7e171b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aba071b8cb81dc79994e53f46888e12') in 0.010813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/cratePlatform_small.obj
+  artifactKey: Guid(9a04f2b48416945c2824ed5a6767209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/cratePlatform_small.obj using Guid(9a04f2b48416945c2824ed5a6767209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5af5d7f7a17531df65b9d5393cebdf') in 0.009139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potB_decorated.obj
+  artifactKey: Guid(13cb94bda5b584bdfbaa13cc6dd8d2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potB_decorated.obj using Guid(13cb94bda5b584bdfbaa13cc6dd8d2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b263cb727d07cc12976b25758096e5b') in 0.010868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/door.obj
+  artifactKey: Guid(cfb7fce7e337c4850b9b78be5bda4bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/door.obj using Guid(cfb7fce7e337c4850b9b78be5bda4bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee9036a24bd08354a91171746439c67') in 0.008897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/floorDecoration_tilesLarge.obj
+  artifactKey: Guid(fc1752729eee2426ab061c45b2a2a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/floorDecoration_tilesLarge.obj using Guid(fc1752729eee2426ab061c45b2a2a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f5575d9be779597528741e5cf25d3c') in 0.006973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.041826 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionSmall_blue.obj
+  artifactKey: Guid(117287e56544f4eaf9301f0804e09557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionSmall_blue.obj using Guid(117287e56544f4eaf9301f0804e09557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70d58c6a3c8c6555121bf7166d475c1') in 0.013189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionSmall_red.obj
+  artifactKey: Guid(746e11cc7d060409486dc01aa7723dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/potionSmall_red.obj using Guid(746e11cc7d060409486dc01aa7723dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0674ecfd0bfcf0d8ce8c3110431a8fe') in 0.011774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_low_cornerLeft.obj
+  artifactKey: Guid(95b15a88165f243afa89f68f01923071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_low_cornerLeft.obj using Guid(95b15a88165f243afa89f68f01923071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd760abc6cb61815b1f792474b05d2a') in 0.007165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_high_cornerLeft.obj
+  artifactKey: Guid(9fa5f53fb1bbe414f9f3e752693fa165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_high_cornerLeft.obj using Guid(9fa5f53fb1bbe414f9f3e752693fa165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b8062ec7cc8c3ec7d1ba79bbc6cbd9') in 0.006858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/quiver_full.obj
+  artifactKey: Guid(0f2a1c2b7bbc643b69242f7ad156bf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/quiver_full.obj using Guid(0f2a1c2b7bbc643b69242f7ad156bf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf23ee56e26b72aeef0d04a723a546d') in 0.011079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_low_cornerRight.obj
+  artifactKey: Guid(6fede98ac13104329aa2059dfbe2f958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_low_cornerRight.obj using Guid(6fede98ac13104329aa2059dfbe2f958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a244f460419fceb8d339c407b1fbe2f8') in 0.007336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_low_cornerBoth.obj
+  artifactKey: Guid(1a21abd05d02742429e5acb7fe3eee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_low_cornerBoth.obj using Guid(1a21abd05d02742429e5acb7fe3eee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466ea92156b3fec4b4c838ec689e5349') in 0.007342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/quiver_half_full.obj
+  artifactKey: Guid(6fa796683596f4f2a9dab6faf01d8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/quiver_half_full.obj using Guid(6fa796683596f4f2a9dab6faf01d8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc285e8fce14b50cddb1b6795918484') in 0.011000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.007719 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_medium.obj
+  artifactKey: Guid(ac24fc16515c84fa4a18d372ba4748b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_medium.obj using Guid(ac24fc16515c84fa4a18d372ba4748b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bcd2aa4c5038a7a7042a0807c4ca33') in 0.007558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_medium_cornerLeft.obj
+  artifactKey: Guid(5ed4c690f7c8241c9a2951ab2ab65763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_medium_cornerLeft.obj using Guid(5ed4c690f7c8241c9a2951ab2ab65763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198e005a1d2c3245dfdc9d3da17bc4c4') in 0.009300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_medium_cornerRight.obj
+  artifactKey: Guid(6fb375685ad3c4634894a8665f7e5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_medium_cornerRight.obj using Guid(6fb375685ad3c4634894a8665f7e5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf2e4a3182a6d5df0440caa43d8f8f7') in 0.007737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.292681 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_high_cornerRight.obj
+  artifactKey: Guid(fa126f0f964494663b0629b3c6a8ba3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_high_cornerRight.obj using Guid(fa126f0f964494663b0629b3c6a8ba3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d597996135a5068b02b7a0f52f34d9') in 0.008640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_low.obj
+  artifactKey: Guid(f1d151bf9108148e39f3a9fab98d4dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_low.obj using Guid(f1d151bf9108148e39f3a9fab98d4dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dc749af15bb71c01d400f4db6c7bae') in 0.008364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_low_cornerLeft.obj
+  artifactKey: Guid(4abe34ad5593f4b2ba434f200b0b8bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_low_cornerLeft.obj using Guid(4abe34ad5593f4b2ba434f200b0b8bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2057f7aa6848a7f96d0e3fee80aab3d') in 0.007733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_low_cornerRight.obj
+  artifactKey: Guid(7c6f627e82ff748cb955e8bd2c8990da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_low_cornerRight.obj using Guid(7c6f627e82ff748cb955e8bd2c8990da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5c5b5970d42d5b21a260d4d74b64d2') in 0.006973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002021 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_low_railing_long.obj
+  artifactKey: Guid(f8c17231721484fd0b9df360ce0fdc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_low_railing_long.obj using Guid(f8c17231721484fd0b9df360ce0fdc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0b7f3eb8eea941d06b014b2231e0dc') in 0.007577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_medium.obj
+  artifactKey: Guid(8f8c081208b2c495e9e8d7e14b94118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_medium.obj using Guid(8f8c081208b2c495e9e8d7e14b94118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c59d18b5fd675e97e4a6bb792acd486') in 0.007032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_stairs.obj
+  artifactKey: Guid(a5525818d14e54998b70417f1fa91305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_stairs.obj using Guid(a5525818d14e54998b70417f1fa91305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c81cb595d9999a6925e74aa11840d5f') in 0.007417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/staff_common.obj
+  artifactKey: Guid(6c2e3a1ed45e24db8b1322deff90b7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/staff_common.obj using Guid(6c2e3a1ed45e24db8b1322deff90b7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65af66bec64c94227273b317a04f5ad3') in 0.008727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/shield_rare.obj
+  artifactKey: Guid(28a47f6f3220e4c1dab035ad744fca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/shield_rare.obj using Guid(28a47f6f3220e4c1dab035ad744fca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b59bb59ae93573a4e22ae06b5c5661') in 0.011652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_medium_cornerRight.obj
+  artifactKey: Guid(96be0de0090a64601ae99041aa58b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_medium_cornerRight.obj using Guid(96be0de0090a64601ae99041aa58b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe68101653f71a157175f6236a32cfd') in 0.007245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_medium_cornerLeft.obj
+  artifactKey: Guid(d2b7a297aadc144c5be98571a7ae25cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/scaffold_small_medium_cornerLeft.obj using Guid(d2b7a297aadc144c5be98571a7ae25cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9716a6d012a9c3d5fd00ae76d5072418') in 0.007015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 20.329064 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/stairs.obj
+  artifactKey: Guid(15a87d86e5cb3421f9bdb701db9ee6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/stairs.obj using Guid(15a87d86e5cb3421f9bdb701db9ee6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1839475c097fb6e8f5e6b8e5517392d') in 0.014293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileBrickB_large.obj
+  artifactKey: Guid(979ef9f1868814a9dae794937ba1f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileBrickB_large.obj using Guid(979ef9f1868814a9dae794937ba1f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffd7e355b66795db87cbbee7807f34d') in 0.010387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tableMedium.obj
+  artifactKey: Guid(83ae0f5c090db461186a7ed69985db66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tableMedium.obj using Guid(83ae0f5c090db461186a7ed69985db66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8cb36fc052d0c5a64f65c96dab918e') in 0.009455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileBrickA_medium.obj
+  artifactKey: Guid(0a9daf40344c44ce0abd816325eac985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileBrickA_medium.obj using Guid(0a9daf40344c44ce0abd816325eac985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88817f4ca93f243eae04ca8f011afb48') in 0.009862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileBrickB_largeCrackedB.obj
+  artifactKey: Guid(1b01778e75639409687771e5c837e77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileBrickB_largeCrackedB.obj using Guid(1b01778e75639409687771e5c837e77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bf8b94b1039028f0c34b23d92d37e') in 0.011060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.351265 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileBrickB_small.obj
+  artifactKey: Guid(0881585fc9c9243ebb5e8793e246d23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileBrickB_small.obj using Guid(0881585fc9c9243ebb5e8793e246d23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61dc822e29e1072baf67597c08e4c30') in 0.013035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileSpikes_shallow.obj
+  artifactKey: Guid(cb70000ae01674a8288157be862a7403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/tileSpikes_shallow.obj using Guid(cb70000ae01674a8288157be862a7403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1256feb39bb15b76bbc14cc14e892b05') in 0.014783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall_gateDoor.obj
+  artifactKey: Guid(2c9ff071544e64fa990bb732f63a35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall_gateDoor.obj using Guid(2c9ff071544e64fa990bb732f63a35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad2082d6959174a496d4e8b3bab37a3') in 0.012551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall_windowGate.obj
+  artifactKey: Guid(86150cef3f10e498f94c7cca1e7cf66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall_windowGate.obj using Guid(86150cef3f10e498f94c7cca1e7cf66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7742d198daa36d593f82e8c7439c736e') in 0.012270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wallSingle_broken.obj
+  artifactKey: Guid(f4de9b946261440f4b89c5e8843913a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wallSingle_broken.obj using Guid(f4de9b946261440f4b89c5e8843913a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9998a34223ae66c55e8f9589a58142b8') in 0.010578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall_window.obj
+  artifactKey: Guid(70df7cde014844e588a0caf1e20bd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall_window.obj using Guid(70df7cde014844e588a0caf1e20bd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397e858f59dcb88be07dc070c3195930') in 0.010970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall.obj
+  artifactKey: Guid(0522507e0c97d41f8a22bd2b643cea3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall.obj using Guid(0522507e0c97d41f8a22bd2b643cea3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f438c24b8004190989737f9c60f16282') in 0.010781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wallSingle_windowGate.obj
+  artifactKey: Guid(3ccc6c6e04a36457eadbcc1521b03216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wallSingle_windowGate.obj using Guid(3ccc6c6e04a36457eadbcc1521b03216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e60256c1be0a779f4ae44245cdc086') in 0.011561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wallSingle_corner.obj
+  artifactKey: Guid(72259479364bb458fa93747118f65034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wallSingle_corner.obj using Guid(72259479364bb458fa93747118f65034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caf6585de47aea53e77837a56758cd6') in 0.010559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall_gate.obj
+  artifactKey: Guid(abd2abf3a74a3466b889ed9ea7955920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wall_gate.obj using Guid(abd2abf3a74a3466b889ed9ea7955920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed650c50620866b63347c464c32df5d') in 0.011850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wallDecorationA.obj
+  artifactKey: Guid(b83404f45caa04e17a55564ee6442275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/obj/wallDecorationA.obj using Guid(b83404f45caa04e17a55564ee6442275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdca38d1a1c8d1becdf3cd5d9d5cfc5b') in 0.010026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
