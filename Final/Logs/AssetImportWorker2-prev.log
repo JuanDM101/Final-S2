@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50733
+52511
 Successfully changed project path to: /Users/juanmaravilla735/Documents/GitHub/Final-P4/Final
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/juanmaravilla735/Documents/GitHub/Final-P4/Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Could not lock editor preferences. Preferences updates for this instance of Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8235596480] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 3169820478 [EditorId] 3169820478 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8488811200] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 1620475576 [EditorId] 1620475576 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8235596480] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 3169820478 [EditorId] 3169820478 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8488811200] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 1620475576 [EditorId] 1620475576 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 2.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,45 +76,45 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56833
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000957 seconds.
-- Loaded All Assemblies, in  0.171 seconds
+Registered in 0.000935 seconds.
+- Loaded All Assemblies, in  0.168 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.122 seconds
-Domain Reload Profiling: 293ms
-	BeginReloadAssembly (40ms)
+- Finished resetting the current domain, in  0.123 seconds
+Domain Reload Profiling: 292ms
+	BeginReloadAssembly (38ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (78ms)
-		LoadAssemblies (39ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (38ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (77ms)
+		AnalyzeDomain (78ms)
 			TypeCache.Refresh (77ms)
 				TypeCache.ScanAssembly (70ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (122ms)
+	FinalizeReload (123ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (91ms)
+		SetupLoadedEditorAssemblies (92ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadAttributes (63ms)
 			ProcessInitializeOnLoadMethodAttributes (22ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 293ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.283 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.286 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,35 +132,35 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.279 seconds
-Domain Reload Profiling: 562ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 561ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (18ms)
 	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (106ms)
+		LoadAssemblies (104ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (98ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (83ms)
 			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (279ms)
+	FinalizeReload (275ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (200ms)
+		SetupLoadedEditorAssemblies (196ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (160ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (155ms)
 			ProcessInitializeOnLoadMethodAttributes (9ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -168,12 +168,12 @@ Domain Reload Profiling: 562ms
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3552.
-Memory consumption went from 125.7 MB to 125.7 MB.
-Total: 1.943833 ms (FindLiveObjects: 0.073583 ms CreateObjectMapping: 0.039792 ms MarkObjects: 1.765375 ms  DeleteObjects: 0.064750 ms)
+Memory consumption went from 128.1 MB to 128.1 MB.
+Total: 1.998334 ms (FindLiveObjects: 0.081917 ms CreateObjectMapping: 0.031875 ms MarkObjects: 1.816041 ms  DeleteObjects: 0.068167 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,20 +190,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15591.417579 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/KayKit Brand Resouces/KayKit_logo.png
-  artifactKey: Guid(93603c1993ce841e197183ef45008a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/KayKit Brand Resouces/KayKit_logo.png using Guid(93603c1993ce841e197183ef45008a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348753ea26c19c14ef17dec6ac601319') in 0.040251 seconds
+  Time since last request: 271338.219045 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets
+  artifactKey: Guid(8b9c8ebeb4c6c4224b418dc405130cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets using Guid(8b9c8ebeb4c6c4224b418dc405130cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e297de4f86c66d72607d97e7c2b4ed19') in 0.002211 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 13.047625 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0/Samples/Sample1.png
-  artifactKey: Guid(88f6d981730334b37a4905763412fa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0/Samples/Sample1.png using Guid(88f6d981730334b37a4905763412fa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8167f1b1de30c4ef2dd0ba42b254f545') in 0.008008 seconds
+  Time since last request: 1.623791 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj
+  artifactKey: Guid(b7a9789a1fa784299bf608ab9be83bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj using Guid(b7a9789a1fa784299bf608ab9be83bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74ac2a201b18aafade8be1a198ab2fa') in 0.000450 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.116591 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/arch.obj
+  artifactKey: Guid(9a327c653ccde4c5d8586c4a5245879b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/arch.obj using Guid(9a327c653ccde4c5d8586c4a5245879b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365cde56c32f6ce3c5be81f12487aa3b') in 0.076034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_gate_left.obj
+  artifactKey: Guid(ce797383716da48ecb9a6344e8e454ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_gate_left.obj using Guid(ce797383716da48ecb9a6344e8e454ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c99d3017e1f445befc83320a2af03b') in 0.008035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/grave_B.obj
+  artifactKey: Guid(c8b66d5f0b1f8459fad5c38a20c91763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/grave_B.obj using Guid(c8b66d5f0b1f8459fad5c38a20c91763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7030456cb21bcd50d9e5287852c04439') in 0.008265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/candle_thin.obj
+  artifactKey: Guid(fbadc525014764642b3cc4288be4f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/candle_thin.obj using Guid(fbadc525014764642b3cc4288be4f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763fcc57d0bc6b3ac4ceeccf09bdac7d') in 0.008855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/gravestone.obj
+  artifactKey: Guid(cc8d95d221f0148368f6ab523a3bdd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/gravestone.obj using Guid(cc8d95d221f0148368f6ab523a3bdd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48059cb5c2cebf426a16c12d189b1d7') in 0.008592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/coffin_decorated.obj
+  artifactKey: Guid(960357d549e6a4c7bbd78e39e8bc0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/coffin_decorated.obj using Guid(960357d549e6a4c7bbd78e39e8bc0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8efad59dbc5d1f26ccd2bc713eb425') in 0.009023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence.obj
+  artifactKey: Guid(c610c0a029b654baea009615d5511adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence.obj using Guid(c610c0a029b654baea009615d5511adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a77122d4b5a642ffb0704cf20115c3') in 0.008614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/bone_B.obj
+  artifactKey: Guid(986c20fda6a4347cfb358a3af699d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/bone_B.obj using Guid(986c20fda6a4347cfb358a3af699d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9752d34eca517913efe5ef110d60a5') in 0.008048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_pillar.obj
+  artifactKey: Guid(f45c993ad21764560a25bbcf07e65dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_pillar.obj using Guid(f45c993ad21764560a25bbcf07e65dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee4255578531efce7310be9518cc6c7') in 0.007942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_seperate_broken.obj
+  artifactKey: Guid(9add192e430aa4b1385a65f30697a343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/fence_seperate_broken.obj using Guid(9add192e430aa4b1385a65f30697a343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b1adc6cd88385d04b03fd4a3c154ca') in 0.008140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/post_lantern_lantern.obj
+  artifactKey: Guid(e5ca6971e0e8648cfbf4d6690d4231a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/post_lantern_lantern.obj using Guid(e5ca6971e0e8648cfbf4d6690d4231a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5036dc2b4343528a1ee14e49019f898c') in 0.009391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.713669 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/post_skull_skull.obj
+  artifactKey: Guid(83f53d083e8804d0f920cf7561a93283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/post_skull_skull.obj using Guid(83f53d083e8804d0f920cf7561a93283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa7f4e06804103b653b1fae13ccc450') in 0.016588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/pumpkin_yellow_small.obj
+  artifactKey: Guid(bebdb3ffe763c4ea4ad6ff1a32d43074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/pumpkin_yellow_small.obj using Guid(bebdb3ffe763c4ea4ad6ff1a32d43074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d16448a35710c3c858bf20dde05ff8') in 0.011120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.009464 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/shrine.obj
+  artifactKey: Guid(a4e052345c7af4a0e807f57e0fc64ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/shrine.obj using Guid(a4e052345c7af4a0e807f57e0fc64ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1fa003bf1fed80db8f22ad1d919da9') in 0.009416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/skull_candle.obj
+  artifactKey: Guid(d54866a0c82704b38bf706a830707ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/skull_candle.obj using Guid(d54866a0c82704b38bf706a830707ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724eeff6c160145253002f7195f4bf2e') in 0.008493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.007237 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_pine_orange_large.obj
+  artifactKey: Guid(51679f9d74c9e4880bfb603def6d969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_pine_orange_large.obj using Guid(51679f9d74c9e4880bfb603def6d969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926cdb9fe692b06d01596bed75c54b78') in 0.008173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_pine_yellow_small.obj
+  artifactKey: Guid(a24b9383f65314b5593df5c2c788d088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_HalloweenBits_1.0_FREE/Assets/obj/tree_pine_yellow_small.obj using Guid(a24b9383f65314b5593df5c2c788d088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcfcffe0f4f1bc6bd2e61acbd8b8bb5') in 0.008268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
 AssetImportWorker is now disconnected from the server
