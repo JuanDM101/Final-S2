@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49204
+51447
 Successfully changed project path to: /Users/juanmaravilla735/Documents/GitHub/Final-P4/Final
 /Users/juanmaravilla735/Documents/GitHub/Final-P4/Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/juanmaravilla735/Documents/GitHub/F
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8675424960] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 259280154 [EditorId] 259280154 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8675424960] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 303688279 [EditorId] 303688279 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8675424960] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 259280154 [EditorId] 259280154 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8675424960] Host "[IP] 10.94.29.228 [Port] 0 [Flags] 2 [Guid] 303688279 [EditorId] 303688279 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,39 +76,39 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56902
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56693
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003221 seconds.
-- Loaded All Assemblies, in  0.174 seconds
+Registered in 0.001076 seconds.
+- Loaded All Assemblies, in  0.170 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.123 seconds
-Domain Reload Profiling: 297ms
+Domain Reload Profiling: 293ms
 	BeginReloadAssembly (40ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (28ms)
+	initialDomainReloadingComplete (25ms)
 	LoadAllAssembliesAndSetupDomain (78ms)
 		LoadAssemblies (40ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (77ms)
-			TypeCache.Refresh (77ms)
-				TypeCache.ScanAssembly (70ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (69ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (123ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (92ms)
+		SetupLoadedEditorAssemblies (91ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 297ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.313 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.301 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,57 +132,55 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.308 seconds
-Domain Reload Profiling: 620ms
-	BeginReloadAssembly (65ms)
+- Finished resetting the current domain, in  0.289 seconds
+Domain Reload Profiling: 591ms
+	BeginReloadAssembly (66ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (201ms)
-		LoadAssemblies (134ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (121ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
+		AnalyzeDomain (98ms)
 			TypeCache.Refresh (88ms)
 				TypeCache.ScanAssembly (80ms)
 			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (308ms)
+	FinalizeReload (289ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (229ms)
+		SetupLoadedEditorAssemblies (209ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadAttributes (168ms)
 			ProcessInitializeOnLoadMethodAttributes (9ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (51.0 KB). Loaded Objects now: 3552.
-Memory consumption went from 130.7 MB to 130.7 MB.
-Total: 1.953042 ms (FindLiveObjects: 0.088250 ms CreateObjectMapping: 0.043750 ms MarkObjects: 1.768542 ms  DeleteObjects: 0.052250 ms)
+Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3552.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 2.196125 ms (FindLiveObjects: 0.083667 ms CreateObjectMapping: 0.042042 ms MarkObjects: 2.013459 ms  DeleteObjects: 0.056458 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -190,325 +188,153 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2944.313656 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets
-  artifactKey: Guid(56c2523cc1bcf40fda142225a3a27290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets using Guid(56c2523cc1bcf40fda142225a3a27290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e0113b08f98d7c1356d73977f027a2') in 0.001009 seconds
+  Time since last request: 259993.532246 seconds.
+  path: Assets/Scenes/KayKit Character Animations 1.2/Models
+  artifactKey: Guid(fd57aae427c824e528e7adaacd0713d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Character Animations 1.2/Models using Guid(fd57aae427c824e528e7adaacd0713d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfa2284a3945069d28cd2bd4e45337c') in 0.000817 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.285201 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/basemodule_B.obj
-  artifactKey: Guid(9436deddbf42549529cc10c18ccb2288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/basemodule_B.obj using Guid(9436deddbf42549529cc10c18ccb2288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e3639bc75a77e7a0e4a9696c0c5403') in 0.078289 seconds
+  Time since last request: 0.190235 seconds.
+  path: Assets/Scenes/KayKit Character Animations 1.2/Models/obj/Pencil.obj
+  artifactKey: Guid(113d566e9ec8e455c828834b4e905766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Character Animations 1.2/Models/obj/Pencil.obj using Guid(113d566e9ec8e455c828834b4e905766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2ee0c0ff0102c0b6a5900d5e7c9e55') in 0.079173 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/containers_D.obj
-  artifactKey: Guid(e83081a921d3940f89a9c533453cb310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/containers_D.obj using Guid(e83081a921d3940f89a9c533453cb310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fa1b1af770a75f806500b428288777') in 0.008965 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/KayKit Character Animations 1.2/Models/obj/PrototypePete_armRight.obj
+  artifactKey: Guid(6b9c5e06e10664e859f05c642a0a01c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Character Animations 1.2/Models/obj/PrototypePete_armRight.obj using Guid(6b9c5e06e10664e859f05c642a0a01c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374e7996082a29bfb1f21152c8609754') in 0.008348 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargodepot_B.obj
-  artifactKey: Guid(b778ee5484fa844888e3eaf1d0702311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargodepot_B.obj using Guid(b778ee5484fa844888e3eaf1d0702311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ece376c813ed3422ba74aa504d1885') in 0.008787 seconds
+  path: Assets/Scenes/KayKit Character Animations 1.2/Models/obj/PrototypePete_armLeft.obj
+  artifactKey: Guid(0abffff032b4741edb9517be84a8813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Character Animations 1.2/Models/obj/PrototypePete_armLeft.obj using Guid(0abffff032b4741edb9517be84a8813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4078fdb2f78d85b8a9cc560973d97c36') in 0.008338 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargo_A.obj
-  artifactKey: Guid(05fce835a5aa248868dedca89d83d916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargo_A.obj using Guid(05fce835a5aa248868dedca89d83d916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d735252a044fd6a45fb29f64cb667b') in 0.008398 seconds
+  Time since last request: 4.855231 seconds.
+  path: Assets/Scenes/KayKit Character Animations 1.2/Models/fbx/PrototypePete.fbx
+  artifactKey: Guid(9911a1af705904512b96008a5b4e4323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Character Animations 1.2/Models/fbx/PrototypePete.fbx using Guid(9911a1af705904512b96008a5b4e4323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a294ec79a419feb3a84a53c946aec') in 0.034614 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/rock_B.obj
-  artifactKey: Guid(7725fb32c17414f668127a432f74fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/rock_B.obj using Guid(7725fb32c17414f668127a432f74fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd0a4120169bfce2b0ff53f931f3aba') in 0.007805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargo_A_packed.obj
-  artifactKey: Guid(b4a7fa8533e0745fe885445ded76dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargo_A_packed.obj using Guid(b4a7fa8533e0745fe885445ded76dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72165aab728773c23a5ab5f0b91231f4') in 0.008269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/rocks_B.obj
-  artifactKey: Guid(7ef7a36d6e28740b9aff387ca3b3f1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/rocks_B.obj using Guid(7ef7a36d6e28740b9aff387ca3b3f1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94deb4ac5d973832c3ae8b70de148e9') in 0.008164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargo_A_stacked.obj
-  artifactKey: Guid(975887ad8cd4e472da9f4c47cc38b1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargo_A_stacked.obj using Guid(975887ad8cd4e472da9f4c47cc38b1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23671a97d58f02caee99a48d612696b') in 0.009030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/lander_base.obj
-  artifactKey: Guid(806e134d8fd6f4ca58560bb4444422c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/lander_base.obj using Guid(806e134d8fd6f4ca58560bb4444422c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdb488526077309c6918f44bb11044d') in 0.008074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/containers_C.obj
-  artifactKey: Guid(76f84d651e7e84964847af0e52d9d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/containers_C.obj using Guid(76f84d651e7e84964847af0e52d9d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87519e41889745ddceff55378d0772b1') in 0.008133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargodepot_C.obj
-  artifactKey: Guid(6354b995b2c4b47079cb93e1556d59fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargodepot_C.obj using Guid(6354b995b2c4b47079cb93e1556d59fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7d93a21f7cd1671041b1fd4d283ae4') in 0.010113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/landingpad_small.obj
-  artifactKey: Guid(d59cc5b5f569d4c17ab0813a72e4cef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/landingpad_small.obj using Guid(d59cc5b5f569d4c17ab0813a72e4cef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439d65bb13af13f9c9d0476ae9f25b12') in 0.008479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/lights.obj
-  artifactKey: Guid(8cd7e08f3317b44378d4500c3297b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/lights.obj using Guid(8cd7e08f3317b44378d4500c3297b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dc18c413844b77079ae6051ec4cbe2') in 0.008535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/basemodule_C.obj
-  artifactKey: Guid(841484e5ab89641a19badae6b9c9fa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/basemodule_C.obj using Guid(841484e5ab89641a19badae6b9c9fa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b8e3030ffc2ec6b5a2f6859049b54e') in 0.009433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/containers_B.obj
-  artifactKey: Guid(a2e98b3b620a847ea9267b41a2341cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/containers_B.obj using Guid(a2e98b3b620a847ea9267b41a2341cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3e2c68ff7415cad25e8030298dcb2a') in 0.008960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/lander_A.obj
-  artifactKey: Guid(0ff03cabd80214eb399a08c46bd95744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/lander_A.obj using Guid(0ff03cabd80214eb399a08c46bd95744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0a0c1271d3eaccab2b0d9279235aca') in 0.009233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_large_wheel_front_left.obj
-  artifactKey: Guid(32795e6a0b29c430997f860033397ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_large_wheel_front_left.obj using Guid(32795e6a0b29c430997f860033397ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96533f4f0942582971568204f303ebfa') in 0.008953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/roofmodule_cargo_A.obj
-  artifactKey: Guid(1f0f21b903108491199c6026a8864a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/roofmodule_cargo_A.obj using Guid(1f0f21b903108491199c6026a8864a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb9bc6d408e2e8c67124e2dc99d2797') in 0.008275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacebits_texture.png
-  artifactKey: Guid(c6623c7641f6440c5aa89959a405b071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacebits_texture.png using Guid(c6623c7641f6440c5aa89959a405b071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8470d660c9f5e1d906c35ca013ece945') in 0.006045 seconds
+  Time since last request: 15.128149 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Samples/Sample3.png
+  artifactKey: Guid(7e6203e35be334437bb0011e46e4aa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Samples/Sample3.png using Guid(7e6203e35be334437bb0011e46e4aa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11118a70064002d22be26cfefc411ab') in 0.010691 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargo_B_stacked.obj
-  artifactKey: Guid(74d7e4a8308d24bff99025d497a31f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/cargo_B_stacked.obj using Guid(74d7e4a8308d24bff99025d497a31f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a42df9f6ffc6accaf440751ff35d52c') in 0.009422 seconds
+  Time since last request: 1003.210347 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_barbarianArmRight.obj
+  artifactKey: Guid(368055ef85ca74d7a9e2f4905610a65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_barbarianArmRight.obj using Guid(368055ef85ca74d7a9e2f4905610a65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fa007f9bcf51bcfa8adc767649ea75') in 0.024055 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/solarpanel.obj
-  artifactKey: Guid(30595c06ca406431da7268e7348c0b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/solarpanel.obj using Guid(30595c06ca406431da7268e7348c0b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec669878573b502c9785b486669ae398') in 0.009396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.808320 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_large_wheel_rear_right.obj
-  artifactKey: Guid(9070ddd7c3d734b95b9f7aec0652892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_large_wheel_rear_right.obj using Guid(9070ddd7c3d734b95b9f7aec0652892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f0cb29f90ad1b262ec2cb8872168c0') in 0.010080 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_trailer_wheel_front_right.obj
-  artifactKey: Guid(961eaeaebd4014d82b204df6dfe95594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_trailer_wheel_front_right.obj using Guid(961eaeaebd4014d82b204df6dfe95594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ac789212c2c48ab1299b7aae961e25') in 0.008919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_trailer.obj
-  artifactKey: Guid(3bd648274e32c40b79c9a000101dd0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_trailer.obj using Guid(3bd648274e32c40b79c9a000101dd0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d4aef9d89a07f6ea81b11c9e97d235') in 0.009660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_trailer_wheel_front_left.obj
-  artifactKey: Guid(5a4cdcf612c944290b62c8e59eee036c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_trailer_wheel_front_left.obj using Guid(5a4cdcf612c944290b62c8e59eee036c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6d4d5abfddd69999b0a865cdbacb51') in 0.009570 seconds
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_rogueHair.obj
+  artifactKey: Guid(53536b83265cb454bab2e4620722abce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_rogueHair.obj using Guid(53536b83265cb454bab2e4620722abce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6430d058e0fa95cc02f19fb913e37bb') in 0.008785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_mageArnLeft.obj
+  artifactKey: Guid(5d88ef0da3b4b4054a315ddad2338dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_mageArnLeft.obj using Guid(5d88ef0da3b4b4054a315ddad2338dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b121dad8f70e032d380cb726eb1f7ff') in 0.013220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_barbarianHead.obj
+  artifactKey: Guid(9cea026f24795416ebae60dae7b0bea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_barbarianHead.obj using Guid(9cea026f24795416ebae60dae7b0bea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cbd7c929aa310ab4fd3c6dc86b7d39') in 0.012469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_mageHair.obj
+  artifactKey: Guid(115da974417f54c1fa297ff765b5f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_mageHair.obj using Guid(115da974417f54c1fa297ff765b5f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d0910bbee336498f2664b36b913f23') in 0.009503 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011059 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_wheel_rear_right.obj
-  artifactKey: Guid(24a71a0367b7c488093439816139356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/spacetruck_wheel_rear_right.obj using Guid(24a71a0367b7c488093439816139356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fd94cce3fdddc44df6c263e73e4381') in 0.008383 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_rogueArmLeft.obj
+  artifactKey: Guid(cfceefb2009244813bef87b8e7f5da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_rogueArmLeft.obj using Guid(cfceefb2009244813bef87b8e7f5da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b4f2ea46e04b13a9ca44e0e9313b88') in 0.011471 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/structure_low.obj
-  artifactKey: Guid(3da5af162025c4222ad7816c119098e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/structure_low.obj using Guid(3da5af162025c4222ad7816c119098e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedeacb191e04e799dc9b35b136fb097') in 0.009065 seconds
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_knightBody.obj
+  artifactKey: Guid(65a81c57d060b48b6b7ada6a0b2a07f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_knightBody.obj using Guid(65a81c57d060b48b6b7ada6a0b2a07f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ae734fa3df9400e470f6f8460b3ee') in 0.018356 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/terrain_mining.obj
-  artifactKey: Guid(90a3cba72fb494a439dbe7765f66d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/terrain_mining.obj using Guid(90a3cba72fb494a439dbe7765f66d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b86acf51e211d3a3c51749d86280c5e') in 0.009105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/terrain_low.obj
-  artifactKey: Guid(1abbf109adf684c51a86fd927a0b14d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/terrain_low.obj using Guid(1abbf109adf684c51a86fd927a0b14d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cbd947c4289029e990735741d1f202') in 0.009052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.011709 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/terrain_tall.obj
-  artifactKey: Guid(7c9ecea7b68714ea58a5796d5be81549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/terrain_tall.obj using Guid(7c9ecea7b68714ea58a5796d5be81549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3009093f608b3a636337ec91ff375a') in 0.008944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/tunnel_diagonal_short_B.obj
-  artifactKey: Guid(79b6dde5498c44b03942b9f937f09e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/tunnel_diagonal_short_B.obj using Guid(79b6dde5498c44b03942b9f937f09e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08e0ae8edb9680d1cd30d1e90d48ffc') in 0.008535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/terrain_tall_curved.obj
-  artifactKey: Guid(4462de0fa3aef4f30baf8d826cb11db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/terrain_tall_curved.obj using Guid(4462de0fa3aef4f30baf8d826cb11db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b4c423738baa2191899c666d3a107c') in 0.008226 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_rogueArmRight.obj
+  artifactKey: Guid(f220362a07a1041f0b4efd66db688a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_rogueArmRight.obj using Guid(f220362a07a1041f0b4efd66db688a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e403bf03fa7357a11d0992f9ef4e0a7d') in 0.013027 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/tunnel_diagonal_long_B.obj
-  artifactKey: Guid(88dc6c049d20e432fb58aa493c46ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/tunnel_diagonal_long_B.obj using Guid(88dc6c049d20e432fb58aa493c46ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb65575a51371de167fb00486783254') in 0.008929 seconds
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_knightHelmet.obj
+  artifactKey: Guid(007752ced754a44f6bea4a15d79e7397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_knightHelmet.obj using Guid(007752ced754a44f6bea4a15d79e7397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d33e04e1207a5a7892bd892f913da3') in 0.010024 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.360390 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/windturbine_low.obj
-  artifactKey: Guid(96971b4d8c5a449dfb2d1191d2151da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/windturbine_low.obj using Guid(96971b4d8c5a449dfb2d1191d2151da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3d4e5112e9af46739e1618ecdf605b') in 0.009500 seconds
+  Time since last request: 0.000113 seconds.
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_rogueBody.obj
+  artifactKey: Guid(33a258fc7dc1d41d991c37ace1035fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_rogueBody.obj using Guid(33a258fc7dc1d41d991c37ace1035fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1038f346f56cf911aa1271a748067511') in 0.015051 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/windturbine_tall_fan.obj
-  artifactKey: Guid(0275c6af1cff84f58bb027d3b3b1c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/windturbine_tall_fan.obj using Guid(0275c6af1cff84f58bb027d3b3b1c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7494987d53ff5bef67bc47f0c1633776') in 0.008360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
-  path: Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/windturbine_tall.obj
-  artifactKey: Guid(d87ce1c5ef78446d7958ec28c6febde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit_Space_Base_Bits_1.0_FREE 2/Assets/obj/windturbine_tall.obj using Guid(d87ce1c5ef78446d7958ec28c6febde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118cf63b5f87feff7d3c8fe1e872a04d') in 0.007894 seconds
+  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_knightHelmetVisor.obj
+  artifactKey: Guid(c4f1cb80209f74654b62b8e47d837836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/Models/Characters/obj/character_knightHelmetVisor.obj using Guid(c4f1cb80209f74654b62b8e47d837836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03dd087ccf2fd8b9d26a13ff37fa945') in 0.010662 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 33.260844 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/KayKit Brand Resouces/KayKit_logo_red.png
-  artifactKey: Guid(c201c8a9b905a4471b3af797376563a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/KayKit Brand Resouces/KayKit_logo_red.png using Guid(c201c8a9b905a4471b3af797376563a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e3e32c325167ca4596d47762f59aa4') in 0.008241 seconds
+  Time since last request: 14.336251 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/characters/fbx/Skeleton_Minion.fbx
+  artifactKey: Guid(ca609f79791544ea59f9a2bca4d883d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/characters/fbx/Skeleton_Minion.fbx using Guid(ca609f79791544ea59f9a2bca4d883d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b73ddefd27701399604cb95dd838a7') in 0.145870 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 222
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/KayKit Brand Resouces/KayKit_logoVariation_black.png
-  artifactKey: Guid(a4654ac287c00457dbd2b005c95542bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/KayKit Brand Resouces/KayKit_logoVariation_black.png using Guid(a4654ac287c00457dbd2b005c95542bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570fcf5e82b7bfd8a8fd181e74992577') in 0.004523 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/characters/fbx/skeleton_texture.png
+  artifactKey: Guid(cdfc585554253458d8ad60bd8c516589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KayKit_Skeletons_1.0_FREE 2/characters/fbx/skeleton_texture.png using Guid(cdfc585554253458d8ad60bd8c516589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ed3f081ec938cb6cf531deaf3dc3a0') in 0.003522 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Scenes/KayKit Dungeon Pack 1.0 2/KayKit Brand Resouces/KayKit_logoVariation_red.png
-  artifactKey: Guid(6141f901f7f754e2eabbd631d726fddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/KayKit Dungeon Pack 1.0 2/KayKit Brand Resouces/KayKit_logoVariation_red.png using Guid(6141f901f7f754e2eabbd631d726fddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f683560ac9afd1cd16116cc22aa6f4dd') in 0.004291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
-AssetImportWorker is now disconnected from the server
-Process exiting
