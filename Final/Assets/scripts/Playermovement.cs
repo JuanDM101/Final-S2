@@ -2,44 +2,95 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class ThirdPersonMovement : MonoBehaviour
 {
-    public float turnSpeed = 20;
-    private Vector3 m_Movement;
-    private Animator m_Animator;
-    private Rigidbody m_Rigidbody;
-    Quaternion m_Rotation = Quaternion.identity;
+    [Header("Assigned Components")]
+    [SerializeField] private Animator _animator;
+    [SerializeField] private CharacterController _characterController;
 
-
+    [Header("Player Movement Values")]
+    public float maximumSpeed;
+    public float rotationSpeed;
+    [Header("Jumping Values")]
+    public float jumpForce;
+    public float jumpButtonGracePeriod;
+    private float _yForce;
+    private float originalStepOffset;
+    private float? _lastGroundedTime;
+    private float? _jumpButtonPressedTime;
+    
     // Start is called before the first frame update
     void Start()
     {
-        m_Animator = GetComponent<Animator>();
-        m_Rigidbody = GetComponent<Rigidbody>();
+        originalStepOffset = _characterController.stepOffset;
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-        m_Movement.Set(horizontal, 0f, vertical);
-        m_Movement.Normalize();
+        Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        float inputMagnitude = Mathf.Clamp01(movementDirection.magnitude);
 
-        bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
-        bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
-        bool isWalking = hasHorizontalInput || hasVerticalInput;
-        m_Animator.SetBool("IsWalking", isWalking);
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            inputMagnitude /= 2;
+        }
+        _animator.SetFloat("InputMagnitude", inputMagnitude, 0.05f, Time.deltaTime);
 
-        Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
-        m_Rotation = Quaternion.LookRotation(desiredForward);
-    }
+        float speed = inputMagnitude * maximumSpeed;
+        movementDirection.Normalize();
 
+        _yForce += Physics.gravity.y * Time.deltaTime;
 
-    void OnAnimatorMove()
-    {
-        m_Rigidbody.MovePosition(m_Rigidbody.position + m_Movement * m_Animator.deltaPosition.magnitude);
-        m_Rigidbody.MoveRotation(m_Rotation);
-    }
+        if (_characterController.isGrounded)
+        {
+            _lastGroundedTime = Time.time;
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            _jumpButtonPressedTime = Time.time;
+        }
+
+        if (Time.time - _lastGroundedTime <= jumpButtonGracePeriod)
+        {
+            _characterController.stepOffset = originalStepOffset;
+            _yForce = -0.5f;
+            _animator.SetBool("IsGrounded", true);
+        
+            if (Time.time - _jumpButtonPressedTime <= jumpButtonGracePeriod)
+            {
+                _yForce = jumpForce;
+                _animator.SetBool("IsJumping", true);
+                _jumpButtonPressedTime = null;
+                _lastGroundedTime = null;
+            }
+        }
+        else
+        {
+            _characterController.stepOffset = 0;
+            _animator.SetBool("IsGrounded", false);
+        }
+
+        Vector3 velocity = movementDirection * speed;
+        velocity.y = _yForce;
+
+        _characterController.Move(velocity * Time.deltaTime);
+
+        if (movementDirection != Vector3.zero)
+        {
+            _animator.SetBool("IsMoving", true);
+
+            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        }
+        else
+        {
+            _animator.SetBool("IsMoving", false);
+        }
+    } //end Update
 }
